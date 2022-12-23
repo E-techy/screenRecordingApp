@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: linear-gradient(to bottom,rgb(58, 55, 55),rgb(112, 112, 112));
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+video{
+    width: 47vw;
+    height: auto;
+   
+    margin: auto;
+    background-color: rgb(163, 169, 173);
+    margin-top: 5vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: white;
+    background-color: rgb(28, 138, 201);
+    border: none;
+    padding: 15px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+a{
+    color: rgb(16, 130, 237);
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+.left{
+    float: left;
+    margin-left: 1vw;
+}
+.right{
+    float: right;
+    margin-right: 1vw;
+}

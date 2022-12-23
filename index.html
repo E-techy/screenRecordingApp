@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./index.css">
+<body>
+    <div class="main">
+        <center>
+            <div class="buttons">
+                <button id="startRecording">Start</button>
+                <button id="stopRecording">Stop</button>
+                <a href="#" id="downloadLink">Download</a>
+            </div>
+        </center>
+        <div class="left">
+        <center>
+       
+        <video class="currentRecording" autoplay muted>
+        </video>
+        </center>
+    </div>
+        <div class="right">
+        <center>
+     
+        <video class="recordedVideo" muted autoplay controls>
+
+        </video>
+        <h1 style="font-size:30px ; color:white ; float:bottom ;">Output</h1>
+    </center>
+</div>
+   
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
